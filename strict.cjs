@@ -30,16 +30,13 @@ module.exports = {
         'camelcase': 'error',
         'capitalized-comments': 'off',
         'class-methods-use-this': 'off',
-        'comma-dangle': [
-            'error',
-            {
-                'arrays': 'always-multiline',
-                'objects': 'always-multiline',
-                'imports': 'always-multiline',
-                'exports': 'always-multiline',
-                'functions': 'never',
-            },
-        ],
+        'comma-dangle': ['error', {
+            'arrays': 'always-multiline',
+            'objects': 'always-multiline',
+            'imports': 'always-multiline',
+            'exports': 'always-multiline',
+            'functions': 'never',
+        }],
         'comma-spacing': ['error', {before: false, after: true}],
         'comma-style': ['error', 'last'],
         'complexity': ['warn', 10],
@@ -65,13 +62,9 @@ module.exports = {
         'id-blacklist': 'off',
         'id-length': 'off',
         'id-match': 'off',
-        'indent': [
-            'error',
-            4,
-            {
-                SwitchCase: 1,
-            },
-        ],
+        'indent': ['error', 4, {
+            SwitchCase: 1,
+        }],
         'indent-legacy': 'off',
         'init-declarations': 'warn',
         'jsx-quotes': ['error', 'prefer-double'],
@@ -119,18 +112,15 @@ module.exports = {
         'no-else-return': 'off',
         'no-empty': 'error',
         'no-empty-character-class': 'error',
-        'no-empty-function': [
-            'error',
-            {
-                allow: [
-                    'generatorFunctions',
-                    'methods',
-                    'generatorMethods',
-                    'setters',
-                    'asyncMethods',
-                ],
-            },
-        ],
+        'no-empty-function': ['error', {
+            allow: [
+                'generatorFunctions',
+                'methods',
+                'generatorMethods',
+                'setters',
+                'asyncMethods',
+            ],
+        }],
         'no-empty-pattern': 'error',
         'no-eq-null': 'off',
         'no-eval': 'error',
@@ -270,14 +260,11 @@ module.exports = {
         'sort-keys': 'off',
         'sort-vars': 'off',
         'space-before-blocks': ['error', 'always'],
-        'space-before-function-paren': [
-            'error',
-            {
-                'anonymous': 'always',
-                'named': 'never',
-                'asyncArrow': 'always',
-            },
-        ],
+        'space-before-function-paren': ['error', {
+            'anonymous': 'always',
+            'named': 'never',
+            'asyncArrow': 'always',
+        }],
         'space-in-parens': ['error', 'never'],
         'space-infix-ops': 'error',
         'space-unary-ops': 'warn',

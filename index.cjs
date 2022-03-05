@@ -102,29 +102,23 @@ module.exports = {
             'stroustrup',
             {},
         ],
-        'comma-spacing': [
-            'error',
-            {
-                'before': false,
-                'after': true,
-            },
-        ],
+        'comma-spacing': ['error', {
+            'before': false,
+            'after': true,
+        }],
         'comma-style': [
             'error',
             'last',
         ],
         'new-parens': 'warn',
         'no-array-constructor': 'error',
-        'no-multi-spaces': [
-            'error',
-            {
-                'exceptions': {
-                    'Property': true,
-                    'BinaryExpression': true,
-                    'VariableDeclarator': true,
-                },
+        'no-multi-spaces': ['error', {
+            'exceptions': {
+                'Property': true,
+                'BinaryExpression': true,
+                'VariableDeclarator': true,
             },
-        ],
+        }],
         'no-new-object': 'error',
         'func-call-spacing': 'error',
         'no-trailing-spaces': 'error',
@@ -149,21 +143,15 @@ module.exports = {
         ],
         'semi-spacing': 'error',
         'keyword-spacing': 'error',
-        'key-spacing': [
-            'error',
-            {
-                'beforeColon': false,
-                'afterColon': true,
-            },
-        ],
-        'space-before-function-paren': [
-            'error',
-            {
-                'anonymous': 'always',
-                'named': 'never',
-                'asyncArrow': 'always',
-            },
-        ],
+        'key-spacing': ['error', {
+            'beforeColon': false,
+            'afterColon': true,
+        }],
+        'space-before-function-paren': ['error', {
+            'anonymous': 'always',
+            'named': 'never',
+            'asyncArrow': 'always',
+        }],
         'space-before-blocks': [
             'error',
             'always',
@@ -214,21 +202,15 @@ module.exports = {
             6,
         ],
         'space-infix-ops': 'error',
-        'dot-notation': [
-            'error',
-            {
-                'allowKeywords': true,
-                'allowPattern': '^catch$',
-            },
-        ],
+        'dot-notation': ['error', {
+            'allowKeywords': true,
+            'allowPattern': '^catch$',
+        }],
         'arrow-spacing': 'error',
         'constructor-super': 'error',
-        'no-confusing-arrow': [
-            'error',
-            {
-                'allowParens': true,
-            },
-        ],
+        'no-confusing-arrow': ['error', {
+            'allowParens': true,
+        }],
         'no-class-assign': 'warn',
         'no-const-assign': 'error',
         'no-dupe-class-members': 'warn',
