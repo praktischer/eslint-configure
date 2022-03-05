@@ -1,8 +1,8 @@
 {
-  "name": "eslint-configure",
+  "name": "@praktisch/eslint-configure",
   "version": "0.0.1",
   "description": "easy eslint custom configure",
-  "main": "index.js",
+  "main": "index.cjs",
   "private": true,
   "author": "heart-er <cmy1293644278@gmail.com>",
   "repository": {
